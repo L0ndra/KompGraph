@@ -383,41 +383,52 @@ namespace KG_LABA1
             Graphics gr = CreateGraphics();
             gr.Clear(Color.White);
 
-            //Г
-            DDACiz(gr, Color.Black, 1, 6, 8, 6);
-            DDACiz(gr, Color.Black, 1, 6, 1, 18);
+            //Л
+            DDACiz(gr, Color.Black, 7, 6, 7, 18);
+            DDACiz(gr, Color.Black, 7, 6, 1, 18);
             
+            //У
+            DDACiz(gr, Color.Black, 9, 6, 11, 12);
+            DDACiz(gr, Color.Black, 13, 6, 11, 12);
+            DDACiz(gr, Color.Black, 11, 12, 11, 18);
+
+            //Б
+            DDACiz(gr, Color.Black, 15, 6, 21, 6);
+            DDACiz(gr, Color.Black, 15, 6, 15, 17);
+            DDACiz(gr, Color.Black, 15, 17, 21, 17);
+            DDACiz(gr, Color.Black, 21, 17, 21, 12);
+            DDACiz(gr, Color.Black, 21, 12, 15, 12);
+
+            //E
+            DDACiz(gr, Color.Black, 23, 6, 23, 17);
+            DDACiz(gr, Color.Black, 23, 6, 29, 6);
+            DDACiz(gr, Color.Black, 23, 12, 29, 12);
+            DDACiz(gr, Color.Black, 23, 17, 29, 17);
+
             //Н
-            DDACiz(gr, Color.Black, 10, 6, 10, 18);
-            DDACiz(gr, Color.Black, 18, 6, 18, 18);
-            DDACiz(gr, Color.Black, 10, 10, 18, 10);
+            DDACiz(gr, Color.Black, 31, 6, 31, 18);
+            DDACiz(gr, Color.Black, 37, 6, 37, 18);
+            DDACiz(gr, Color.Black, 31, 12, 37, 12);
 
-            //і
-            DDACiz(gr, Color.Black, 20, 4, 20, 5);
-            DDACiz(gr, Color.Black, 20, 6, 20, 18);
+            //E
+            DDACiz(gr, Color.Black, 39, 6, 39, 17);
+            DDACiz(gr, Color.Black, 39, 6, 45, 6);
+            DDACiz(gr, Color.Black, 39, 12, 45, 12);
+            DDACiz(gr, Color.Black, 39, 17, 45, 17);
 
-            //Д
-            DDACiz(gr, Color.Black, 24, 6, 32, 6);
-            DDACiz(gr, Color.Black, 32, 6, 32, 18);
-            DDACiz(gr, Color.Black, 24, 6, 24, 18);
-            DDACiz(gr, Color.Black, 22, 18, 34, 18);
-            DDACiz(gr, Color.Black, 22, 18, 22, 20);
-            DDACiz(gr, Color.Black, 34, 18, 34, 20);
+            //Ц
+            DDACiz(gr, Color.Black, 47, 6, 47,17);
+            DDACiz(gr, Color.Black, 53, 6, 53, 17);
+            DDACiz(gr, Color.Black, 54, 17, 54, 19);
+            DDACiz(gr, Color.Black, 47, 17, 54, 17);
 
-            //И
-            DDACiz(gr, Color.Black, 36, 6, 36, 18);
-            DDACiz(gr, Color.Black, 44, 6, 44, 18);
-            DDACiz(gr, Color.Black, 36, 17, 44, 6);
+            //Ь
+            DDACiz(gr, Color.Black, 56, 6, 56, 17);
+            DDACiz(gr, Color.Black, 56, 17, 62, 17);
+            DDACiz(gr, Color.Black, 62, 17, 62, 12);
+            DDACiz(gr, Color.Black, 62, 12, 56, 12);
 
-            //Й
-            DDACiz(gr, Color.Black, 46, 6, 46, 18);
-            DDACiz(gr, Color.Black, 54, 6, 54, 18);
-            DDACiz(gr, Color.Black, 46, 17, 54, 6);
-            DDACiz(gr, Color.Black, 49, 4, 52, 4);
 
-            //ь
-            //DDACiz(gr, Color.Black, 63, 3, 63, 12);
-            //BresenhamCircle(gr, Color.Black, 63, 9, 2, 0);
 
             myPen.Dispose();
             gr.Dispose();
